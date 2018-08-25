@@ -49,8 +49,12 @@ def all_holidays_with_bbq(holiday_hash)
     if holiday.values.flatten.include?("BBQ")
       bbq_keys.push(holiday.keys)
     end
+<<<<<<< HEAD
   end
   bbq_keys.flatten
+=======
+  end.flatten
+>>>>>>> ef86b6d09998251ca202a678e47ec52efda6428d
   # holiday_hash.collect do |season, holiday|
   #   if holiday.values.flatten.include?("BBQ")
   #     holiday.keys
